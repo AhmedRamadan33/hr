@@ -1,0 +1,225 @@
+img{
+  width: 100%;
+}
+a{
+  text-decoration: none !important;
+}
+.p-70{
+  padding-top: 70px;
+}
+body{
+  font-family: "Alegreya";
+  background-color: #fff;
+  color: #000;
+}
+/* //////// */
+.header {
+  background-color: #c6c2c2;
+  position: relative;
+  top: 15px;
+  left: 0;
+  right: 0;
+  border-radius: 5px;
+  z-index: 999999;
+}
+.header h1{
+  position: relative;
+  top: 7px;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.header .hr{
+  width: 55px;
+}
+
+.header .navbar .navbar-nav>li>a {
+  color: #000 ;
+  font-size: 15px;
+  margin: 0 8px;
+}
+.header .navbar .navbar-nav>li>a:hover{
+  color: #fff;
+}
+.header .navbar-light .navbar-nav .active>.nav-link {
+  color: #000 ;
+}
+.header .navbar-light .navbar-nav .active>.nav-link:hover {
+  color: #fff;
+}
+
+.navbar-brand{
+  color: #000 !important;
+}
+h1{
+  color: #178576;
+
+}
+
+.titlePage{
+  margin-top: 70PX;
+
+}
+.form-control{
+  margin-bottom: 10px;
+}
+.card{
+  background-color: #ddd;
+
+  color: #000;
+  padding: 15px;
+}
+.card-body{
+  background-color: white;
+
+  color: #fff;
+}
+input::placeholder{
+  color: #cccccc;
+  font-size: 15px;
+}
+.table{
+  color: #000;
+  background-color: #c9c5c5;
+
+}
+.p-img{
+  padding: 0px;
+  height: auto;
+}
+.table_image {
+  width: 50px;
+}
+.table td, .table th {
+  padding: 0.65rem;
+}
+/* login */
+
+
+.login-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ .form {
+  position: relative;
+  width: 100%;
+  max-width: 380px;
+  padding: 80px 40px 40px;
+  background: rgba(255,255,255, 0.08);
+  border-radius: 10px;
+  color: #fff;
+  box-shadow: 0 15px 25px rgba(204, 72, 74, 0.5);
+}
+
+ .form img {
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+  width: 100px;
+  background: #ff652f;
+  border-radius: 50%;
+}
+ .form h2 {
+  text-align: center;
+  letter-spacing: 1px;
+  margin-bottom: 2rem;
+  color: #ff652f;
+}
+ .form .input-group {
+  position: relative;
+}
+ .form .input-group input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #c7c7c7;
+  outline: none;
+  background-color: transparent;
+  color: #178576;
+}
+ .form .input-group label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 1rem;
+  pointer-events: none;
+  transition: .3s ease-out;
+  color: #8b8787;
+}
+ .login-wrapper .form .input-group input:focus + label,
+ .login-wrapper .form .input-group input:valid + label {
+  transform: translateY(-18px);
+  color: #ff652f;
+  font-size: .8rem;
+}
+.submit-btn {
+  display: block;
+  margin-left: auto;
+  border: none;
+  outline: none;
+  background: #ff652f;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+.adminPage .forgot-pw {
+  color: #178576;
+}
+
+.profile_admin img {
+
+  width: 100px;
+  background: rgba(255,255,255, 0.8);
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.profile_admin .admin_name{
+  color: #ff652f;
+}
+
+
+#forgot-pw {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 0;
+  z-index: 1;
+  background-color: #fff ;
+
+
+  opacity: 0;
+  transition: 0.6s;
+}
+#forgot-pw:target {
+  height: 100%;
+  opacity: 1;
+}
+.close {
+  position: absolute;
+  right: 1.5rem;
+  top: 0.5rem;
+  font-size: 2rem;
+  font-weight: 900;
+  text-decoration: none;
+  color: #000;
+} 
+
+.card-body {
+  color: #000;
+}
